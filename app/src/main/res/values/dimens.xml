@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_normal_100">16dp</dimen>
+    <dimen name="height_app_bar_main">200dp</dimen>
+    <dimen name="radius_corner_card_view">6dp</dimen>
+    <dimen name="padding_normal_100">16dp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="margin_normal_50">8dp</dimen>
+</resources>

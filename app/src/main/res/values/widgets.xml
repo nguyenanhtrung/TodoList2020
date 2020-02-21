@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:foregroundTint">?attr/colorSurface</item>
+        <item name="cardCornerRadius">@dimen/radius_corner_card_view</item>
+    </style>
+
+</resources>
