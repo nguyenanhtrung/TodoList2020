@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:contentPadding="@dimen/padding_normal_100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_icon_task_item"
+            android:layout_width="@dimen/width_icon_task_item"
+            android:layout_height="@dimen/height_icon_task_item"
+            tools:src=""
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/image_content_description" />
+
+        <TextView
+            android:id="@+id/text_task_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/image_icon_task_item"
+            style="@style/TextTaskName"
+            android:layout_marginStart="@dimen/margin_normal_100"
+            tools:text="My Task Name" />
+        
+        <TextView
+            android:id="@+id/text_task_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_task_item_name"
+            android:layout_alignStart="@id/text_task_item_name"
+            tools:text="Personal"
+            />
+
+        <TextView
+            android:id="@+id/text_task_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="24/02/2020 10:30"
+            android:layout_below="@id/text_task_group_name"
+            android:layout_alignStart="@id/text_task_group_name"
+            />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_alignTop="@id/text_task_item_name"
+            android:layout_alignBottom="@id/text_task_date_time"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

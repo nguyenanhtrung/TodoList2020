@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragmentt">
 
+    <fragment
+        android:id="@+id/homeFragmentt"
+        android:name="com.example.todolist2020.ui.home.HomeFragmentt"
+        android:label="fragment_home_fragmentt"
+        tools:layout="@layout/fragment_home_fragmentt" />
 </navigation>
